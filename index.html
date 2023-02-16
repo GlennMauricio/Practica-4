@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 4 - Linea de Tiempo</title>
+</head>
+<style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body{
+      background-image: linear-gradient(135deg,#00B7D4,#505488,#2F3F80,#161569,#5A4894,#A950A1,#FF7CAE);
+      background-size: 500%;
+      animation: fanimado 15s infinite;                                          
+    }
+    .texto{
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin: 300px 0;
+      font-size: 28px;
+    }
+
+    @keyframes fanimado{
+      0%{
+        background-position: 0% 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+<!----------------------------------------------------------------------------------------------------------->
+<style media="screen">
+    #menu{
+      background-image: url("Img/FondoTitulo.gif");
+      color:#141517;
+      font-style: Verdana;
+      text-align: center;
+    }
+
+    h1{
+     color:#fefefe;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+ </style>
+ <!----------------------------------------------------------------------------------------------------------->
+ <style>
+table {
+    color: #fff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+thead {
+    background: rgba(225, 225, 13, 0.983);
+}
+
+th {
+    padding: 20px 15px ;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: rgba(225, 225, 13, 0.983);
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgb(0, 0, 0);
+}
+
+tr:nth-child(even){
+  background-color: #db3f02;
+}
+ </style>
+<body>
+    <center><h1><img src="Img/Titulo.png" alt="Titulo"></h1></center>
+    <div id="menu" >
+        <h1><u>-Desarrollo de la Web-</u></h1>
+    </div>
+
+    <center>
+      <table style="border: solid 4px rgba(255, 255, 255, 0.2);">
+        <thead>
+          <tr>
+            <th>Años</th>
+            <th>Represetacion</th>
+            <th>información</th>
+            <th>Imagen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1957</td>
+            <td>ARPA</td>
+            <td>Se cuenta con el registro de la Agencia de investigaciones Avanzadas (ARPA).</td>
+            <td><img src="Img/ARPA.jfif" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>1961</td>
+            <td>LEONARD KLEINROCK</td>
+            <td>Public&oacute; desde el MIT el primer documento que redact&oacute; la teor&iacute;a de conmutaci&oacute;n de paquetes. </td>
+            <td><img src="Img/Segunda.jpg" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>1967</td>
+            <td>ALUNIZAJE</td>
+            <td>El hombre llega por primera vez a la luna, lo cual marca el inicio de las comunidades globales.</td>
+            <td><img src="Img/tercera.jpg" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>1969</td>
+            <td>ARPANET</td>
+            <td>Se estableci&oacute; por primera vez la primer conexi&oacute;n de computadoras, conocida como ARPANET entre tres universidades en California y una en Utah.</td>
+            <td><img src="Img/Cuarta.jpg" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>1983</td>
+            <td>CAMBIO</td>
+            <td>ARPANET cambi&oacute; el protocolo NCP por TCP/IP</td>
+            <td><img src="Img/Quinta.jpg" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>1989</td>
+            <td>OSI</td>
+            <td>Se integran los protocolos OSI en la arquitectura de internet, facilitando el uso de distintos protocolos de Internet.</td>
+            <td><img src="Img/Sexta.png" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>1990</td>
+            <td>ARPANET ELIMINADO</td>
+            <td>Se desmantela ARPANET y de &eacute;l aparecen: <br>
+              <ol type="A" style="color: rgb(255, 0, 0);">
+                <li><font color="Orange">MILNET: Car&aacute;cter militar.</font></li>
+                <li><font color="Orange">INTERNET: Accesible para todos.</font></li>
+              </ol>
+            </td>
+            <td><img src="Img/Septima.jpg" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>1991</td>
+            <th rowspan="2">HTML Y WWW</th>
+            <td>Tim Berners Lee, crea la Word Wide Web, mejor conocida como WWW.
+            </td>
+            <td><img src="Img/Optaba.jpg" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>1991</td>
+            <td>Se propuso en ese mismo año un nuevo sistema de hipertexto para compartir documentos. 
+              (HyperText Markup Language) Lenguaje de marcas de hipertexto.</td>
+            <td><img src="Img/html.jpg" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <th rowspan="4">1991 2016</th>
+            <td>WEB 1.0</td>
+            <td>Fundaci&oacute;n de las empresas: <br>
+              <ol type="a" style="color: rgb(255, 0, 0);">
+                <li><font color="Orange">Amazon.</font></li>
+                <li><font color="Orange">Google.</font></li>
+              </ol>
+            </td> 
+            <td><img src="Img/Parte1.png" height="50px" width="50px"><img src="Img/Parte2.jpg" height="50px" width="50px"></td>
+          </tr>
+          <tr>
+            
+            <td>WEB 2.0</td>
+            <td>Fundaci&oacute;n de las empresas: <br>
+              <ol type="i" style="color: rgb(255, 0, 0);">
+                <li><font color="Orange">Facebook.</font></li>
+                <li><font color="Orange">Ajax.</font></li>
+                <li><font color="Orange">Amazon EC2.</font></li>
+              </ol></td>
+            <td><img src="Img/Face.png" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>WEB 3.0</td>
+            <td>Liberaci&oacute;n del HTML 5</td>
+            <td><img src="Img/html5.png" height="50px" width="50px"></td>
+          </tr>
+
+          <tr>
+            <td>WEB 4.0</td>
+            <td>Se centra en ofrecer un comportamiento más inteligente y más predictivo, de modo que podamos, con sólo realizar una afirmación o 
+              una llamada, poner en marcha un conjunto de acciones que tendrán como resultando aquello que pedimos, deseamos o decimos.</td>
+            <td><img src="Img/Web4.png" height="50px" width="50px"></td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+</body>
+</html>
